@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeskMosaic | Desktop Widget Engine for Windows</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-white">
+
+  <!-- Navigation -->
+  <header class="border-b border-slate-800 bg-slate-900/60 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+        <span class="text-cyan-400">❖</span> DeskMosaic
+      </div>
+      <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-300">
+        <a href="#features" class="hover:text-cyan-400 transition">Features</a>
+        <a href="#editions" class="hover:text-cyan-400 transition">Editions</a>
+        <a href="#support" class="hover:text-cyan-400 transition">Support</a>
+      </nav>
+      <a href="#editions" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold px-4 py-2 rounded-lg text-sm transition">
+        Get the Apps
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-6xl mx-auto px-6 py-20 text-center">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-950/80 text-cyan-300 border border-cyan-800 mb-6">
+      Now available in the Microsoft Store
+    </div>
+    <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight max-w-3xl mx-auto leading-tight">
+      Transform your desktop into an intelligent dashboard.
+    </h1>
+    <p class="mt-6 text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+      DeskMosaic is a lightweight, high-performance widget engine built for Windows. Pin data, organize tools, and customize your workspace with zero bloat.
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a href="#editions" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-6 py-3 rounded-xl transition shadow-lg shadow-cyan-500/20">
+        Explore Editions & Download
+      </a>
+    </div>
+  </section>
+
+  <!-- Comparison / Editions Section -->
+  <section id="editions" class="max-w-6xl mx-auto px-6 py-16 border-t border-slate-900">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-white tracking-tight">Choose Your Edition</h2>
+      <p class="text-slate-400 mt-2">Tailored setups for professionals, power users, and students.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <!-- DeskMosaic Pro / Full -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between hover:border-cyan-500/50 transition">
+        <div>
+          <div class="text-cyan-400 font-semibold text-sm uppercase tracking-wider">Full Edition</div>
+          <h3 class="text-2xl font-bold text-white mt-1">DeskMosaic</h3>
+          <p class="text-slate-400 mt-3 text-sm leading-relaxed">
+            The comprehensive desktop widget engine built for multi-tasking, system visibility, and deep customization.
+          </p>
+          <ul class="mt-6 space-y-3 text-sm text-slate-300">
+            <li class="flex items-center gap-2">✓ Full modular widget library</li>
+            <li class="flex items-center gap-2">✓ Advanced positioning & multi-monitor support</li>
+            <li class="flex items-center gap-2">✓ Custom theme parameters & presets</li>
+            <li class="flex items-center gap-2">✓ Lightweight native Windows execution</li>
+          </ul>
+        </div>
+        <div class="mt-8 pt-6 border-t border-slate-800/80">
+          <a href="https://apps.microsoft.com" target="_blank" rel="noopener" class="block text-center bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 rounded-xl transition border border-slate-700">
+            Get DeskMosaic on Microsoft Store
+          </a>
+        </div>
+      </div>
+
+      <!-- Student Edition -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between hover:border-cyan-500/50 transition">
+        <div>
+          <div class="text-emerald-400 font-semibold text-sm uppercase tracking-wider">Student Edition</div>
+          <h3 class="text-2xl font-bold text-white mt-1">DeskMosaic: Student</h3>
+          <p class="text-slate-400 mt-3 text-sm leading-relaxed">
+            Designed specifically for focused study, schedules, notes, and academic time management without distractions.
+          </p>
+          <ul class="mt-6 space-y-3 text-sm text-slate-300">
+            <li class="flex items-center gap-2">✓ Focused study timers & schedule widgets</li>
+            <li class="flex items-center gap-2">✓ Simplified layout controls</li>
+            <li class="flex items-center gap-2">✓ Quick note taking & checklist tools</li>
+            <li class="flex items-center gap-2">✓ Optimized for laptops & touch screens</li>
+          </ul>
+        </div>
+        <div class="mt-8 pt-6 border-t border-slate-800/80">
+          <a href="https://apps.microsoft.com" target="_blank" rel="noopener" class="block text-center bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 rounded-xl transition border border-slate-700">
+            Get Student Edition on Microsoft Store
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="support" class="border-t border-slate-900 py-12 text-center text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div>© 2026 DeskMosaic Software. All rights reserved.</div>
+      <div class="flex gap-6">
+        <a href="mailto:deskmosaic.apps@gmail.com" class="hover:text-slate-300">Support</a>
+        <a href="#" class="hover:text-slate-300">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
